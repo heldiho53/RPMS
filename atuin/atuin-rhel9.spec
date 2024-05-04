@@ -6,8 +6,8 @@ License:        MIT
 Group:          System/Console
 URL:            https://github.com/ellie/atuin
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz
-Source1:        vendor.tar.gz
-Source2:        cargo_config
+Source1:        https://github.com/heldiho53/RPMS/raw/main/atuin/vendor.tar.gz
+Source2:        https://raw.githubusercontent.com/heldiho53/RPMS/main/atuin/cargo_config
 BuildRequires:  gcc-c++
 BuildRequires:  gcc
 BuildRequires:  cargo
